@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" width="620" height="340" role="img" aria-labelledby="keyboardTitle">
+  <title id="keyboardTitle">Mac keyboard layout with modifier keys highlighted</title>
+  <defs>
+    <style>
+      .key { fill: #eaeaec; stroke: #a0a0a8; stroke-width: 1.2; rx: 5; }
+      .key.mod-cmd { fill: #bf5af2; }
+      .key.mod-opt { fill: #ff9ff3; }
+      .key.mod-ctrl { fill: #54a0ff; }
+      .key.mod-shift { fill: #ff7675; }
+      .key.mod-esc { fill: #00b894; }
+      .key.mod-del { fill: #d63031; }
+      .key.mod-ret { fill: #fd79a8; }
+      .key.mod-tab { fill: #fdcb6e; }
+      .key.space { fill: #bf5af2; }
+      .label { fill: #2d3436; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; text-anchor: middle; dominant-baseline: central; }
+      .label.small { font-size: 10px; fill: #636e72; }
+      .label.mod { font-size: 17px; font-weight: 700; }
+      .title { fill: #2d3436; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 15px; font-weight: 700; text-anchor: start; }
+      .panel { fill: #ffffff; stroke: #b2bec3; stroke-width: 1; rx: 8; }
+      .legend-label { fill: #2d3436; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; }
+      .swatch { rx: 3; }
+    </style>
+  </defs>
+
+  <!-- Function row -->
+  <g transform="translate(22, 26)">
+    <rect class="key mod-esc" width="56" height="30" />
+    <text class="label mod" x="28" y="15">⎋</text>
+    <g transform="translate(70, 0)">
+      <rect class="key" width="26" height="30" /><text class="label" x="13" y="15">F1</text>
+      <rect class="key" width="26" height="30" x="34" /><text class="label" x="47" y="15">F2</text>
+      <rect class="key" width="26" height="30" x="68" /><text class="label" x="81" y="15">F3</text>
+      <rect class="key" width="26" height="30" x="102" /><text class="label" x="115" y="15">F4</text>
+      <rect class="key" width="26" height="30" x="136" /><text class="label" x="149" y="15">F5</text>
+      <rect class="key" width="26" height="30" x="170" /><text class="label" x="183" y="15">F6</text>
+      <rect class="key" width="26" height="30" x="204" /><text class="label" x="217" y="15">F7</text>
+      <rect class="key" width="26" height="30" x="238" /><text class="label" x="251" y="15">F8</text>
+      <rect class="key" width="26" height="30" x="272" /><text class="label" x="285" y="15">F9</text>
+      <rect class="key" width="26" height="30" x="306" /><text class="label" x="319" y="15">F10</text>
+      <rect class="key" width="26" height="30" x="340" /><text class="label" x="353" y="15">F11</text>
+      <rect class="key" width="26" height="30" x="374" /><text class="label" x="387" y="15">F12</text>
+    </g>
+  </g>
+
+  <!-- Number row -->
+  <g transform="translate(22, 66)">
+    <rect class="key" width="34" height="30" /><text class="label" x="17" y="15">`</text>
+    <rect class="key" width="34" height="30" x="40" /><text class="label" x="57" y="15">1</text>
+    <rect class="key" width="34" height="30" x="80" /><text class="label" x="97" y="15">2</text>
+    <rect class="key" width="34" height="30" x="120" /><text class="label" x="137" y="15">3</text>
+    <rect class="key" width="34" height="30" x="160" /><text class="label" x="177" y="15">4</text>
+    <rect class="key" width="34" height="30" x="200" /><text class="label" x="217" y="15">5</text>
+    <rect class="key" width="34" height="30" x="240" /><text class="label" x="257" y="15">6</text>
+    <rect class="key" width="34" height="30" x="280" /><text class="label" x="297" y="15">7</text>
+    <rect class="key" width="34" height="30" x="320" /><text class="label" x="337" y="15">8</text>
+    <rect class="key" width="34" height="30" x="360" /><text class="label" x="377" y="15">9</text>
+    <rect class="key" width="34" height="30" x="400" /><text class="label" x="417" y="15">0</text>
+    <rect class="key" width="34" height="30" x="440" /><text class="label" x="457" y="15">-</text>
+    <rect class="key" width="34" height="30" x="480" /><text class="label" x="497" y="15">=</text>
+    <rect class="key mod-del" width="62" height="30" x="520" /><text class="label mod" x="551" y="15">⌫</text>
+  </g>
+
+  <!-- QWERTY row -->
+  <g transform="translate(22, 106)">
+    <rect class="key mod-tab" width="56" height="30" /><text class="label mod" x="28" y="15">⇥</text>
+    <rect class="key" width="34" height="30" x="62" /><text class="label" x="79" y="15">q</text>
+    <rect class="key" width="34" height="30" x="102" /><text class="label" x="119" y="15">w</text>
+    <rect class="key" width="34" height="30" x="142" /><text class="label" x="159" y="15">e</text>
+    <rect class="key" width="34" height="30" x="182" /><text class="label" x="199" y="15">r</text>
+    <rect class="key" width="34" height="30" x="222" /><text class="label" x="239" y="15">t</text>
+    <rect class="key" width="34" height="30" x="262" /><text class="label" x="279" y="15">y</text>
+    <rect class="key" width="34" height="30" x="302" /><text class="label" x="319" y="15">u</text>
+    <rect class="key" width="34" height="30" x="342" /><text class="label" x="359" y="15">i</text>
+    <rect class="key" width="34" height="30" x="382" /><text class="label" x="399" y="15">o</text>
+    <rect class="key" width="34" height="30" x="422" /><text class="label" x="439" y="15">p</text>
+    <rect class="key" width="34" height="30" x="462" /><text class="label" x="479" y="15">[</text>
+    <rect class="key" width="34" height="30" x="502" /><text class="label" x="519" y="15">]</text>
+    <rect class="key" width="34" height="30" x="542" /><text class="label" x="559" y="15">\</text>
+  </g>
+
+  <!-- ASDF row -->
+  <g transform="translate(22, 146)">
+    <rect class="key mod-shift" width="74" height="30" /><text class="label mod" x="37" y="15">⇧</text>
+    <rect class="key" width="34" height="30" x="80" /><text class="label" x="97" y="15">a</text>
+    <rect class="key" width="34" height="30" x="120" /><text class="label" x="137" y="15">s</text>
+    <rect class="key" width="34" height="30" x="160" /><text class="label" x="177" y="15">d</text>
+    <rect class="key" width="34" height="30" x="200" /><text class="label" x="217" y="15">f</text>
+    <rect class="key" width="34" height="30" x="240" /><text class="label" x="257" y="15">g</text>
+    <rect class="key" width="34" height="30" x="280" /><text class="label" x="297" y="15">h</text>
+    <rect class="key" width="34" height="30" x="320" /><text class="label" x="337" y="15">j</text>
+    <rect class="key" width="34" height="30" x="360" /><text class="label" x="377" y="15">k</text>
+    <rect class="key" width="34" height="30" x="400" /><text class="label" x="417" y="15">l</text>
+    <rect class="key" width="34" height="30" x="440" /><text class="label" x="457" y="15">;</text>
+    <rect class="key" width="34" height="30" x="480" /><text class="label" x="497" y="15">'</text>
+    <rect class="key mod-ret" width="62" height="30" x="520" /><text class="label mod" x="551" y="15">⏎</text>
+  </g>
+
+  <!-- ZXCV row -->
+  <g transform="translate(22, 186)">
+    <rect class="key mod-shift" width="74" height="30" /><text class="label mod" x="37" y="15">⇧</text>
+    <rect class="key" width="34" height="30" x="80" /><text class="label" x="97" y="15">z</text>
+    <rect class="key" width="34" height="30" x="120" /><text class="label" x="137" y="15">x</text>
+    <rect class="key" width="34" height="30" x="160" /><text class="label" x="177" y="15">c</text>
+    <rect class="key" width="34" height="30" x="200" /><text class="label" x="217" y="15">v</text>
+    <rect class="key" width="34" height="30" x="240" /><text class="label" x="257" y="15">b</text>
+    <rect class="key" width="34" height="30" x="280" /><text class="label" x="297" y="15">n</text>
+    <rect class="key" width="34" height="30" x="320" /><text class="label" x="337" y="15">m</text>
+    <rect class="key" width="34" height="30" x="360" /><text class="label" x="377" y="15">,</text>
+    <rect class="key" width="34" height="30" x="400" /><text class="label" x="417" y="15">.</text>
+    <rect class="key" width="34" height="30" x="440" /><text class="label" x="457" y="15">/</text>
+    <rect class="key mod-shift" width="74" height="30" x="480" /><text class="label mod" x="517" y="15">⇧</text>
+  </g>
+
+  <!-- Bottom row -->
+  <g transform="translate(22, 226)">
+    <rect class="key mod-ctrl" width="44" height="30" /><text class="label mod" x="22" y="15">⌃</text>
+    <rect class="key mod-opt" width="56" height="30" x="52" /><text class="label mod" x="80" y="15">⌥</text>
+    <rect class="key mod-cmd" width="66" height="30" x="116" /><text class="label mod" x="149" y="15">⌘</text>
+    <rect class="key space" width="170" height="30" x="190" />
+    <rect class="key mod-cmd" width="66" height="30" x="368" /><text class="label mod" x="401" y="15">⌘</text>
+    <rect class="key mod-opt" width="56" height="30" x="442" /><text class="label mod" x="470" y="15">⌥</text>
+  </g>
+
+  <!-- Arrow cluster -->
+  <g>
+    <rect class="key" width="28" height="24" x="524" y="224" rx="4" /><text class="label" x="538" y="236">←</text>
+    <rect class="key" width="28" height="24" x="558" y="200" rx="4" /><text class="label" x="572" y="212">↑</text>
+    <rect class="key" width="28" height="24" x="558" y="224" rx="4" /><text class="label" x="572" y="236">↓</text>
+    <rect class="key" width="28" height="24" x="592" y="224" rx="4" /><text class="label" x="606" y="236">→</text>
+  </g>
+
+  <!-- Modifier legend panel -->
+  <g transform="translate(488, 24)">
+    <rect class="panel" width="126" height="138" />
+    <text class="title" x="12" y="20">Modifier keys</text>
+    <g transform="translate(12, 32)">
+      <rect class="swatch mod-cmd" width="14" height="14" /><text class="legend-label" x="20" y="11" font-weight="700">⌘</text><text class="legend-label" x="42" y="11">Command</text>
+      <rect class="swatch mod-opt" width="14" height="14" y="20" /><text class="legend-label" x="20" y="31" font-weight="700">⌥</text><text class="legend-label" x="42" y="31">Option</text>
+      <rect class="swatch mod-ctrl" width="14" height="14" y="40" /><text class="legend-label" x="20" y="51" font-weight="700">⌃</text><text class="legend-label" x="42" y="51">Control</text>
+      <rect class="swatch mod-shift" width="14" height="14" y="60" /><text class="legend-label" x="20" y="71" font-weight="700">⇧</text><text class="legend-label" x="42" y="71">Shift</text>
+      <rect class="swatch mod-esc" width="14" height="14" y="80" /><text class="legend-label" x="20" y="91" font-weight="700">⎋</text><text class="legend-label" x="42" y="91">Escape</text>
+      <rect class="swatch mod-del" width="14" height="14" y="100" /><text class="legend-label" x="20" y="111" font-weight="700">⌫</text><text class="legend-label" x="42" y="111">Delete</text>
+      <rect class="swatch mod-ret" width="14" height="14" y="120" /><text class="legend-label" x="20" y="131" font-weight="700">⏎</text><text class="legend-label" x="42" y="131">Return</text>
+    </g>
+  </g>
+</svg>
