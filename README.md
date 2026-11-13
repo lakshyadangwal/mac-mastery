@@ -2,7 +2,7 @@
 
 > macOS keyboard shortcuts and Mac tips, organized by **situation**, tagged by **level**, and packed with **memory hooks** so they actually stick.
 
-![Stars](https://img.shields.io/github/stars/lakshya/mac-mastery?style=flat-square)
+![Stars](https://img.shields.io/github/stars/lakshyadangwal/mac-mastery?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-blue?style=flat-square)
